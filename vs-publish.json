@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["tools", "themes"],
+  "categories": ["visual studio extensions","other"],
   "identity": {
     "internalName": "mappinggenerator"
   },
