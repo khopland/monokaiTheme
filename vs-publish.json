@@ -1,9 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["Tools", "Themes"],
+  "categories": ["tools", "themes"],
   "identity": {
-    "internalName": "MonokaiTheme"
+    "internalName": "mappinggenerator"
   },
   "overview": "README.md",
-  "publisher": "Kristoffer Hopland"
+  "priceCategory": "free",
+  "private": false,
+  "repo": "https://github.com/BM0B0T/monokaiTheme"
 }
