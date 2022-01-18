@@ -9,10 +9,10 @@ namespace monokaiTheme
     {
         public const string Id = "monokaiTheme.d27bb130-a3b9-41b3-9671-033e9061155d";
         public const string Name = "monokai Theme";
-        public const string Description = @"monokai theme for VS 2022";
+        public const string Description = @"monokai theme for VS 2022. ported from Jetbrains monokai pro theme https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Kristoffer Hopland";
-        public const string Tags = "";
+        public const string Tags = "monokai, theme, dark";
     }
 }

@@ -3,9 +3,11 @@
     <Metadata>
         <Identity Id="monokaiTheme.d27bb130-a3b9-41b3-9671-033e9061155d" Version="1.0" Language="en-US" Publisher="Kristoffer Hopland" />
         <DisplayName>monokai Theme</DisplayName>
-        <Description xml:space="preserve">monokai theme for VS 2022</Description>
+        <Description xml:space="preserve">monokai theme for VS 2022. ported from Jetbrains monokai pro theme https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme</Description>
+        <License>Resources\LICENSE</License>
         <Icon>Resources\pluginIcon.png</Icon>
         <PreviewImage>Resources\pluginIcon.png</PreviewImage>
+        <Tags>monokai, theme, dark</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
