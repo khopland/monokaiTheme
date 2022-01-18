@@ -3,11 +3,11 @@ name: 'Build'
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
-    branches: [master]
+
 
 jobs:
   build:
@@ -39,13 +39,7 @@ jobs:
           vsix-token-source-file: ${{ env.VsixManifestSourcePath }}
 
       - name: Build
-        run: msbuild /v:m -restore /p:OutDir=/_built
-
-      - name: Setup test
-        uses: darenm/Setup-VSTest@v1
-
-      - name: Test
-        run: vstest.console.exe \_built\*test.dll
+        run: msbuild /v:m -restore /p:OutDir=\_built
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
