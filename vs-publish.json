@@ -1,12 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["visual studio extensions"],
+  "categories": ["coding"],
   "identity": {
-    "internalName": "mappinggenerator"
+    "internalName": "MonokaiTheme"
   },
   "overview": "README.md",
   "publisher": "Kristoffer Hopland",
   "priceCategory": "free",
-  "private": false,
   "repo": "https://github.com/BM0B0T/monokaiTheme"
 }
