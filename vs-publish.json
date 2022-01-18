@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["visual studio extensions"],
+  "categories": ["tools"],
   "identity": {
     "internalName": "MonokaiTheme",
     "tags": ["monokai", "theme", "dark"]
