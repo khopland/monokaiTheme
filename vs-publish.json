@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["tools"],
+  "categories": ["other"],
   "identity": {
     "internalName": "MonokaiTheme",
     "tags": ["monokai", "theme", "dark"]
