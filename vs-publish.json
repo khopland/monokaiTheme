@@ -1,8 +1,9 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["coding"],
+  "categories": ["visual studio extensions", "other"],
   "identity": {
-    "internalName": "MonokaiTheme"
+    "internalName": "MonokaiTheme",
+    "tags": ["monokai", "theme", "dark"]
   },
   "overview": "README.md",
   "publisher": "KristofferHopland",
