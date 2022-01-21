@@ -5,6 +5,7 @@
         <DisplayName>monokai Theme</DisplayName>
         <Description xml:space="preserve">monokai theme for VS 2022. ported from Jetbrains monokai pro theme https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme</Description>
         <License>Resources\LICENSE</License>
+        <ReleaseNotes>README.md</ReleaseNotes>
         <Icon>Resources\pluginIcon.png</Icon>
         <PreviewImage>Resources\pluginIcon.png</PreviewImage>
         <Tags>monokai, theme, dark</Tags>

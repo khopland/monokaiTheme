@@ -66,6 +66,10 @@
       <Generator>ThemeConverter</Generator>
       <LastGenOutput>Monokai.pkgdef</LastGenOutput>
     </None>
+    <Content Include="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>
