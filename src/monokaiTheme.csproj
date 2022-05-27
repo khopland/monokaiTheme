@@ -16,7 +16,7 @@
     <RootNamespace>monokaiTheme</RootNamespace>
     <AssemblyName>monokaiTheme</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <GeneratePkgDefFile>true</GeneratePkgDefFile>
+    <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
     <IncludeDebugSymbolsInVSIXContainer>true</IncludeDebugSymbolsInVSIXContainer>
@@ -58,30 +58,74 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="monokai-machine.pkgdef">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monokai-machine.jsonc</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="monokai-octagon.pkgdef">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monokai-octagon.jsonc</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="monokai-ristretto.pkgdef">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monokai-ristretto.jsonc</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="monokai-spectrum %28old theme%29.pkgdef">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monokai-spectrum %28old theme%29.jsonc</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="monokai-standard.pkgdef">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monokai-standard.jsonc</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="Monokai.jsonc">
-      <Generator>ThemeConverter</Generator>
-      <LastGenOutput>Monokai.pkgdef</LastGenOutput>
-    </None>
     <Content Include="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="monokai-machine.jsonc">
+      <Generator>ThemeConverter</Generator>
+      <LastGenOutput>monokai-machine.pkgdef</LastGenOutput>
+    </None>
+    <None Include="monokai-octagon.jsonc">
+      <Generator>ThemeConverter</Generator>
+      <LastGenOutput>monokai-octagon.pkgdef</LastGenOutput>
+    </None>
+    <None Include="monokai-ristretto.jsonc">
+      <Generator>ThemeConverter</Generator>
+      <LastGenOutput>monokai-ristretto.pkgdef</LastGenOutput>
+    </None>
+    <None Include="monokai-spectrum %28old theme%29.jsonc">
+      <Generator>ThemeConverter</Generator>
+      <LastGenOutput>monokai-spectrum %28old theme%29.pkgdef</LastGenOutput>
+    </None>
+    <None Include="monokai-standard.jsonc">
+      <Generator>ThemeConverter</Generator>
+      <LastGenOutput>monokai-standard.pkgdef</LastGenOutput>
+    </None>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>
       <LastGenOutput>source.extension.cs</LastGenOutput>
     </None>
-    <Content Include="Monokai.pkgdef">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Monokai.jsonc</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Resources\pluginIcon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="monokaiTheme.d27bb130-a3b9-41b3-9671-033e9061155d" Version="1.0" Language="en-US" Publisher="Kristoffer Hopland" />
+        <Identity Id="monokaiTheme.d27bb130-a3b9-41b3-9671-033e9061155d" Version="2.0" Language="en-US" Publisher="Kristoffer Hopland" />
         <DisplayName>monokai Theme</DisplayName>
         <Description xml:space="preserve">monokai theme for VS 2022. ported from Jetbrains monokai pro theme https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme</Description>
         <License>Resources\LICENSE</License>
@@ -19,6 +19,10 @@
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Monokai.jsonc\Monokai.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="monokai-machine.jsonc\monokai-machine.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="monokai-octagon.jsonc\monokai-octagon.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="monokai-ristretto.jsonc\monokai-ristretto.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="monokai-spectrum (old theme).jsonc\monokai-spectrum (old theme).pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="monokai-standard.jsonc\monokai-standard.pkgdef" />
     </Assets>
 </PackageManifest>
