@@ -6,7 +6,7 @@ A Monokai theme for VS 2022.
 Ported from [Jetbrains monokai pro theme](https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme)
 
 # Screen Shots
-
+The screen shots is shot with the extension ViasFora and my theme you can get for from [here](https://gist.github.com/khopland/595592ee3a6d7abe5c09223a59217b74).
 ### Standard
 ![standard](art/standard.png)
 
@@ -21,7 +21,6 @@ Ported from [Jetbrains monokai pro theme](https://plugins.jetbrains.com/plugin/1
 
 ### Machine
 ![machine](art/machine.png)
-
 
 ---
 
