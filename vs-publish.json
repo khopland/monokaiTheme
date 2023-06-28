@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": ["other"],
+  "categories": ["other","coding"],
   "identity": {
     "internalName": "MonokaiTheme",
     "tags": ["monokai", "theme", "dark"]
@@ -8,6 +8,21 @@
   "overview": "README.md",
   "publisher": "KristofferHopland",
   "priceCategory": "free",
-
+  "assetFiles": [{
+    "pathOnDisk": "art/machine.png",
+    "targetPath": "art/machine.png"
+  },{
+    "pathOnDisk": "art/octagon.png",
+    "targetPath": "art/octagon.png"
+  },{
+    "pathOnDisk": "art/ristretto.png",
+    "targetPath": "art/ristretto.png"
+  },{
+    "pathOnDisk": "art/spectrum.png",
+    "targetPath": "art/spectrum.png"
+  },{
+    "pathOnDisk": "art/standard.png",
+    "targetPath": "art/standard.png"
+  }],
   "repo": "https://github.com/BM0B0T/monokaiTheme"
 }
